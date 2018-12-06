@@ -40,7 +40,7 @@ function loadNextQuestion() {
   if (currentQuestion == totQuestions) {
     container.style.display = "none";
     resultCont.style.display = "";
-    // resultCont.textContent = localStorage._user + ": " + score;
+    resultCont.textContent = "Your Score: " + score;
     //localStorage.removeItem("firstname");
     // clearTimeout(presentTime);
     // document.getElementById("Highscore").innerHTML = localStorage.getItem("firstname");
