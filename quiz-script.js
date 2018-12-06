@@ -2,8 +2,6 @@ var currentQuestion = 0;
 var score = 0;
 var totQuestions = questions.length;
 
-// localStorage._user = document.getElementById("nametxt").value;
-
 var container = document.getElementById("quizContainer");
 var questionEl = document.getElementById("question");
 var opt1 = document.getElementById("opt1");
@@ -41,10 +39,8 @@ function loadNextQuestion() {
     container.style.display = "none";
     resultCont.style.display = "";
     resultCont.textContent = "Your Score: " + score;
-    //localStorage.removeItem("firstname");
-    // clearTimeout(presentTime);
-    // document.getElementById("Highscore").innerHTML = localStorage.getItem("firstname");
-    // document.getElementById("Highscore").innerHTML = localStorage.setItem;
+    name = localStorage.setItem.document.getElementById("nametxt").innerHTML
+    document.getElementById("Highscore").innerHTML = localStorage.getItem(name);
     return;
   }
   loadQuestion(currentQuestion);
