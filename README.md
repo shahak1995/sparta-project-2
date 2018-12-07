@@ -14,7 +14,7 @@ My game is a Entertainment quiz game in which the player has to answer 10 questi
 3. You then click clone or download and download the zip file
 
 
-#### You can view the page [here](https://shahak1995.github.io/sparta-project-2/.) - Link to play the game
+#### You can view the page here: (https://shahak1995.github.io/sparta-project-2/.) 
 
 ### Challenges (you can include images and code block here)
 1. Putting the information of the questions and answer in code and make it display in their containers
